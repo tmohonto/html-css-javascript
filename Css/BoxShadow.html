@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box and text shadow</title>
+    <style>
+        .container
+        {
+            display: flex;
+        }
+        .card
+        {
+            /* box-shadow: offset-x offset-y blur-redius spread-redius color; */
+            padding: 20px 10px;
+            margin: 20px 10px;
+            /* border: 2px solid red; */
+            background-color: burlywood;
+            /* box-shadow: 1px 7px green; */
+            /* box-shadow: -9px -9px green; */
+            /* box-shadow: -9px -9px 9px green; */
+            box-shadow: inset 3px 4px green;
+            box-shadow: 3px 4px green, 6px 8px red;
+        }
+        .card h2
+        {
+            text-shadow: 3px 4px pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>Card1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestias id voluptatem reprehenderit exercitationem ullam soluta, tempora dolorum cupiditate odit autem alias totam, error, quidem architecto. Explicabo rem voluptatibus alias?</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>Card2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quae. Libero doloribus error exercitationem, quia ullam iste, quaerat accusantium aliquam ex numquam dolorum quod ipsam hic id, non corporis vero aliquid qui nobis magnam sapiente?</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>Card3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam beatae porro soluta reiciendis ea quasi, nemo architecto quo ad consequuntur esse itaque quod cupiditate veritatis sit incidunt recusandae repellat, laborum eligendi tenetur facilis! Odio, eligendi.</p>
+        </div>
+    </div>
+    <h6>I am writing using vim</h6>
+</body>
+</html>

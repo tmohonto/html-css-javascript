@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>I am learning html forms</h2>
+    <form action="#">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Write your name">
+        </div>
+        <br>
+        <div>
+            <label for="role">Role:</label> <input type="text" id="role">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="email" id="">
+        </div>
+        <br>
+        <div>
+            Birthday: <input type="date" name="date">
+        </div>
+        <br>
+        <div>
+            Phone Number: <input type="number" name="phone" id="">
+        </div>
+        <br>
+        <div>
+            Are you eligible: <input type="checkbox" name="eligible" id="" checked> Yes
+            <input type="checkbox" name="eligible" id=""> No
+        </div>
+        <br>
+        <div>
+            Gender: <input type="radio" name="gender"> Male <input type="radio" name="gender"> Female
+        </div>
+        <br>
+        <div>
+            Write about yourself: 
+            <br>
+            <textarea name="comment" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="car" id="car">
+                <option value="mercedes" selected>Mercedes</option>
+                <option value="bugati">Bugati</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>

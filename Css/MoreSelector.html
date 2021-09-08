@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Selector</title>
+    <style>
+        h1
+        {
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+        /* div li p
+        {
+            color: white;
+            background-color: green;
+            font-weight: bold;
+        } */
+        /* div > p /*Div arr direct child effect hobe
+        {
+            color: white;
+            background-color: green;
+            font-weight: bold;
+        } */
+        div + p
+        {
+            color: white;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is more selector</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p>This is another paragraph inside li</p>
+                </li>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is outmost paragraph</p>
+</body>
+</html>
