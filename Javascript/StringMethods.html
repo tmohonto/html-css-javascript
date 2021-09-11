@@ -7,6 +7,20 @@
     <title>String in javascript</title>
 </head>
 <body>
-    
+    <h1>I write a paragraph</h1>
+    <div id="content"></div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum sequi quasi qui, error dolore rem minus labore explicabo repellat reprehenderit. Sunt quos tempora cupiditate, ex illum culpa molestiae, eaque aliquid corrupti quisquam officiis quas commodi.</p>
+    <script>
+        var name = 'Tonmoy';
+        var channel = 'Coders';
+        var message = 'code can not finished';
+        var temp = `${name} is a nice person and he has a channel called ${channel}`;
+        console.log(temp);
+        var len = name.length;
+        console.log(`Length of name is ${len}`);
+        var a = new String("Tonmoy");
+        console.log(a);
+        document.getElementById('content').innerHTML = "<h3>I am insert a h3 heading</h3>";
+    </script>
 </body>
 </html>
