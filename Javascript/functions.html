@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <div class="container">
+        This is a container.
+    </div>
+    <script>
+        console.log("I am a coder");
+        function greet(name, greetText = "Greeting from javascript")
+        {
+            let name1 = "Name1";
+            console.log(greetText + " " + name);
+            console.log(name + " is a good coder");
+        }
+        function sum(a , b, c)
+        {
+            let d = a + b + c;
+            return d;
+            // This line wiil never execute
+            //console.log("Function is return");
+        }
+        let name = "Tonmoy";
+        let name1 = "Apon";
+        let name2 = "Mohonto";
+        let name3 = "Debasis";
+        let greetText1 = "Good Morning" ;
+        greet(name, greetText1);
+        greet(name1, greetText1);
+        greet(name2, greetText1);
+        greet(name3, greetText1);
+        let c = greet(name3);
+    </script>
+</body>
+</html>

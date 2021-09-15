@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loop</title>
+</head>
+<body>
+    <div class="container">
+        This is a container.
+    </div>
+    <script>
+        // let i = 0;
+        // for(i = 0; i < 3; i++)
+        // {
+        //     console.log(i);
+        // }
+        let friend = ["Tonmoy", "Mohonto"]
+        for (let index = 0; index < friend.length; index++) {
+            const element = friend[index];
+            console.log("Good " + friend[index]);
+        }
+
+        friend.forEach(function f(element)
+        {
+            console.log("Good " + element);
+        });
+        for (element of friend)
+        {
+            console.log("Good " + element);
+        }
+        
+        let employee =
+        {
+            name : "Tonmoy",
+            salary : 30000
+        }
+        for (key in employee)
+        {
+            console.log(`The ${key} of employee is ${employee[key]}`);
+        }
+
+        let i = 0;
+        while(i<2)
+        {
+            console.log(`${i} is less than 2`);
+        }
+        i++;
+    </script>
+</body>
+</html>
