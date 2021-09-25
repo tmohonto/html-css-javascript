@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json</title>
+</head>
+<body>
+    <div class="container">
+        This is my json learning.
+    </div>
+
+    <script>
+        let jsonObj = 
+        {
+            name: "Tonmoy",
+            channel: "Coder",
+            friend: "Mohonto",
+        }
+        console.log(jsonObj);
+
+        let Strjson = JSON.stringify(jsonObj);
+        console.log(Strjson);
+
+        json = Strjson.replace("Tonmoy", "Coder");
+        console.log(json);
+
+        newJsonIbj = JSON.parse(json);
+        console.log(newJsonIbj);
+    </script>
+</body>
+</html>
