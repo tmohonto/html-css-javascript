@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Object</title>
+</head>
+<body>
+    <div class="container">
+        <h2>This is math object</h2>
+    </div>
+    <script>
+        let  m = Math;
+        console.log(m);
+        console.log("The value of Math.E ", Math.E);
+        console.log("The value of Math.PI ", Math.PI);
+        console.log("The value of Math.LN2 ", Math.LN2);
+        console.log("The value of Math.LOG10E ", Math.LOG10E);
+        console.log("The value of Math.SQRT2 ", Math.SQRT2);
+        console.log("The value of Math.SQRT1_2 ", Math.SQRT1_2);
+
+        // Functions
+
+        let a = 34.5555;
+        let b = 90;
+
+        console.log("Rounded value of a and b is ", Math.round(a), Math.round(b));
+
+        console.log("3 raised to the power 2 is ", Math.pow(3, 2));
+
+        
+        console.log("Square root of 81 is ", Math.sqrt(81));
+        console.log("7.6 down up to nearest interger is ", Math.floor(7.6));
+        console.log("7.6 round up to nearest interger is ", Math.ceil(7.6));
+
+        // Absolute functions
+        console.log("Absolute value of 5.77 is ", Math.abs(5.77));
+
+        // Trigonometry Functons
+        console.log("The value of sin(pi) is ", Math.sin(Math.PI));
+        
+        // Min max value
+        console.log("The minimum value of 4, 5 ,6 is ", Math.min(4, 5, 6));
+
+        // Generating a random number
+        let r = Math.random();
+        // Random number b/w (a, b) = a + (b - a) * Math.random();
+        let c = 1;
+        let d = 100;
+        // let r1_100 = c + (d - c) * Math.random();
+        let r1_100 = d  * Math.random();
+        console.log("The random number is ", r);
+        console.log("The random number is ", Math.round(r1_100));
+    </script>
+</body>
+</html>
