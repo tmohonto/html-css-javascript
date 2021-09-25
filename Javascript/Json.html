@@ -20,10 +20,10 @@
         }
         console.log(jsonObj);
 
-        let Strjson = JSON.stringify(jsonObj);
-        console.log(Strjson);
+        let json = JSON.stringify(jsonObj);
+        console.log(json);
 
-        json = Strjson.replace("Tonmoy", "Coder");
+        json = json.replace("Tonmoy", "Coder");
         console.log(json);
 
         newJsonIbj = JSON.parse(json);
